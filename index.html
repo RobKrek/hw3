@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homework No. 3">
     <meta name="keywords" content="fizzbuz, javascript, homework">
     <title>Mājasdarbs #3</title>
     <link rel="stylesheet"  href="style.css">
 </head>
 
 <body>
-<h1>Behold - THE FIZZBUZZ GENERATOR!!!</h1>
+<header>
+<img src="bildes/logo.png"><br>
 
 <!-- Pogas -->
-<div id="pogas">
+<nav id="pogas">
 <label for="start">Start:</label>
 <input type="number" id="start" value="1">
 <label for="end">End:</label>
@@ -29,7 +31,8 @@
   document.getElementById('fizz').value,
   document.getElementById('buzz').value)">Generate Divs</button>
 <button onclick="clearDivs()">Clear Divs</button>
-</div>
+</nav>
+</header>
 
 <!-- JS skripts -->
 <script src="script.js"></script> 
