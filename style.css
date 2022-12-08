@@ -16,7 +16,7 @@ main {
   width: 100%;
   height: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(100px, 0fr));
   grid-gap: 10px;
   align-content: center;
   justify-items: center;
@@ -39,8 +39,7 @@ footer {
   text-align: center;
 }
 
-/*div elementi*/
-
+/*Div'u variācijas*/
 .normal {
   background-color: 	#B3B3B3;
   color: black;
@@ -85,6 +84,6 @@ footer {
   justify-content: center;
   width: 100%;
   min-height: 100px;
-  font-size: 1.5em;
+  font-size: 1.4em;
   border-radius: 4px;
 }
