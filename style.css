@@ -45,7 +45,7 @@ footer {
 /*div elementi*/
 
 .fizzbuzz {
-  background-color: blue;
+  background-color: #440066;
   color: white;
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ footer {
 }
 
 .fizz {
-  background-color: green;
+  background-color: #C775F0;
   color: white;
   display: flex;
   align-items: center;
@@ -69,8 +69,8 @@ footer {
 }
 
 .buzz {
-  background-color: yellow;
-  color: black;
+  background-color: #AA00FF;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,8 +81,8 @@ footer {
 }
 
 .normal {
-  background-color: red;
-  color: white;
+  background-color: 	#B3B3B3;
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,3 +91,4 @@ footer {
   font-size: 1.5em;
   border-radius: 4px;
 }
+
