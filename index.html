@@ -11,33 +11,34 @@
 </head>
 
 <body>
-<header>
-<img src="bildes/logo.png"><br>
+  <header>
+    <img src="bildes/logo.png" alt="word bubble says Fizzbuz"><br>
 
-<!-- Pogas -->
-<nav id="pogas">
-<label for="start">Start:</label>
-<input type="number" id="start" value="1" min="1">
-<label for="end">End:</label>
-<input type="number" id="end" value="100" min="1">
-<label for="fizz">Fizzes:</label>
-<input type="number" id="fizz" value="3" min="1">
-<label for="buzz">Buzzes:</label>
-<input type="number" id="buzz" value="5" min="1">
-<br><br>
-<button onclick="generateDivs(
-  document.getElementById('start').value,
-  document.getElementById('end').value,
-  document.getElementById('fizz').value,
-  document.getElementById('buzz').value)">Generate Divs</button>
-<button onclick="clearDivs()">Clear Divs</button>
-</nav>
-</header>
+    <!-- Pogas -->
+    <nav id="pogas">
+      <label for="start">Start:</label>
+      <input type="number" id="start" value="1" min="1">
+      <label for="end">End:</label>
+     <input type="number" id="end" value="100" min="1">
+      <label for="fizz">Fizzes:</label>
+      <input type="number" id="fizz" value="3" min="1">
+      <label for="buzz">Buzzes:</label>
+      <input type="number" id="buzz" value="5" min="1">
+      <br><br>
+      <button onclick="generateDivs(
+        document.getElementById('start').value,
+        document.getElementById('end').value,
+        document.getElementById('fizz').value,
+        document.getElementById('buzz').value)">GENERATE</button>
+      <button onclick="clearDivs()">CLEAR</button>
+    </nav>
+
+  </header>
 
 <!-- JS skripts -->
-<script src="script.js"></script> 
-<main id="main"></main>
-
-<footer><br>Autors: R.K. © 2022 RTU Digital Humanities</footer>
+  <script src="script.js"></script> 
+  <main id="main"></main>
+  <footer><br>Autors: R.K. © 2022 RTU Digital Humanities</footer>
+  
 </body>
 </html>
