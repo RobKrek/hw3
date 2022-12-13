@@ -12,8 +12,8 @@ img {
 }
 
 main {
-  margin: auto;
   margin-top: 2%;
+  margin: auto;
   width: 90%;
   height: auto;
   display: grid;
