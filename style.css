@@ -12,8 +12,9 @@ img {
 }
 
 main {
+  margin: auto;
   margin-top: 2%;
-  width: 100%;
+  width: 50%;
   height: auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 0fr));
