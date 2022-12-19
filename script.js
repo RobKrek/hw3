@@ -32,10 +32,13 @@ function clearDivs() {
   }
 }
 
-//Aizliegtās ievades
+//Aizliegtās ievades - nav smuki, bet strādā :)
 document.getElementById('start').addEventListener('input', function(event){
   if (!/^[1-9]\d{0,1}$/.test(event.target.value)) {
-    event.target.value = '';}
+    if (event.target.value < 1) {
+      event.target.value = '';
+    } else if (event.target.value > 99) {
+      event.target.value = 99;}}
 });
 document.getElementById('end').addEventListener('input', function(event){
   if (!/^[1-9]\d*$/.test(event.target.value)) {
