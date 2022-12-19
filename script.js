@@ -32,4 +32,20 @@ function clearDivs() {
   }
 }
 
-
+//Aizliegtās ievades
+document.getElementById('start').addEventListener('input', function(event){
+  if (!/^[1-9]\d*$/.test(event.target.value)) {
+    event.target.value = '';}
+});
+document.getElementById('end').addEventListener('input', function(event){
+  if (!/^[1-9]\d*$/.test(event.target.value)) {
+    event.target.value = '';}
+});
+document.getElementById('fizz').addEventListener('input', function(event){
+  if (!/^[1-9]\d*$/.test(event.target.value)) {
+    event.target.value = '';}
+});
+document.getElementById('buzz').addEventListener('input', function(event){
+  if (!/^[1-9]\d*$/.test(event.target.value)) {
+    event.target.value = '';}
+});
