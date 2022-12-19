@@ -39,7 +39,9 @@ document.getElementById('start').addEventListener('input', function(event){
 });
 document.getElementById('end').addEventListener('input', function(event){
   if (!/^[1-9]\d*$/.test(event.target.value)) {
-    event.target.value = '';}
+    event.target.value = '';
+  } else if (event.target.value > 100) {
+    event.target.value = 100;}
 });
 document.getElementById('fizz').addEventListener('input', function(event){
   if (!/^[1-9]\d*$/.test(event.target.value)) {
