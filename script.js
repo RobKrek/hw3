@@ -32,7 +32,7 @@ function clearDivs() {
   }
 }
 
-//Aizliegtās ievades - nav smuki, bet strādā :)
+//Aizliegtās ievades - nav eleganti, bet strādā :)
 document.getElementById('start').addEventListener('input', function(event){
   if (!/^[1-9]\d{0,1}$/.test(event.target.value)) {
     if (event.target.value < 1) {
