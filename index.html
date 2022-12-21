@@ -25,14 +25,14 @@
       <label for="buzz">Buzzes:</label>
       <input type="number" id="buzz" value="5" min="1">
       <br><br>
-      <button id="generate-button" onclick="generateDivs(
+      <button id="generate-poga" onclick="generateDivs(
         parseInt(document.getElementById('start').value, 10),
         parseInt(document.getElementById('end').value, 10),
         parseInt(document.getElementById('fizz').value, 10),
         parseInt(document.getElementById('buzz').value, 10),
-        document.getElementById('generate-button').disabled = true)">GENERATE</button>
+        document.getElementById('generate-poga').disabled = true)">GENERATE</button>
       <button onclick="clearDivs();
-        document.getElementById('generate-button').disabled = false;">CLEAR</button>
+        document.getElementById('generate-poga').disabled = false;">CLEAR</button>
       <button onclick="resetInputs()">RESET</button>
     </nav>
 
