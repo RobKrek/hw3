@@ -55,3 +55,11 @@ document.getElementById('buzz').addEventListener('input', function(event){
   if (!/^[1-9]\d*$/.test(event.target.value)) {
     event.target.value = '';}
 });
+
+//Reset poga
+function resetInputs() {
+    document.getElementById('start').value = 1;
+    document.getElementById('end').value = 100;
+    document.getElementById('fizz').value = 3;
+    document.getElementById('buzz').value = 5;
+}
