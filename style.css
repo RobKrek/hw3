@@ -11,6 +11,11 @@ img {
   object-fit: contain;
 }
 
+body {
+  align-items: center;
+  justify-content: center;
+}
+
 main {
   margin: auto;
   margin-top: 2%;
